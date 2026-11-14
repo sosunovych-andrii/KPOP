@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 24px 16px;
+  font-family: system-ui, sans-serif;
+}
+
+input {
+  padding: 6px 8px;
+}
+
+.error {
+  color: #dc2626;
+}

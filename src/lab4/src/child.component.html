@@ -1,0 +1,17 @@
+@if (error; as message) {
+  <p class="error">{{ message }}</p>
+} @else {
+  <p>D = {{ discriminant }}</p>
+  @switch (roots.length) {
+    @case (0) {
+      <p>Дійсних коренів немає</p>
+    }
+    @case (1) {
+      <p>x = {{ roots[0] }}</p>
+    }
+    @default {
+      <p>x₁ = {{ roots[0] }}</p>
+      <p>x₂ = {{ roots[1] }}</p>
+    }
+  }
+}

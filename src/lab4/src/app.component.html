@@ -1,0 +1,10 @@
+<h1>Квадратне рівняння</h1>
+<div class="equation">
+  <input type="number" [(ngModel)]="a" placeholder="a" />
+  <span>x² +</span>
+  <input type="number" [(ngModel)]="b" placeholder="b" />
+  <span>x +</span>
+  <input type="number" [(ngModel)]="c" placeholder="c" />
+  <span>= 0</span>
+</div>
+<child-comp [a]="a" [b]="b" [c]="c"></child-comp>

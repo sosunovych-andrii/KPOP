@@ -1,0 +1,23 @@
+{
+  "name": "КПОП",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "lab1": "tsc && node dist/lab1/index.js",
+    "lab2": "tsc && node dist/lab2/index.js",
+    "lab3": "npm --prefix src/lab3 start -- --open",
+    "lab4": "npm --prefix src/lab4 start -- --open",
+    "lab5": "npm --prefix src/lab5 start -- --open",
+    "lab6": "npm --prefix src/lab6 start -- --open",
+    "lab7": "npm --prefix src/lab7 start -- --open",
+    "lab7:test": "npm --prefix src/lab7 run test:coverage",
+    "lab8": "npm --prefix src/lab8 start -- --open"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "private": true
+}
